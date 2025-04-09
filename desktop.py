@@ -11,6 +11,8 @@ target_hour = 5
 target_minute = 30
 
 
+
+
 def cryptoprice():
     URL = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
     response = requests.get(URL)
